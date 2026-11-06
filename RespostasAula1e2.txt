@@ -1,0 +1,82 @@
+RespostasAula1e2
+Aula1-Passo 12
+1.
+Você: Escolha uma palavra secreta e me diga qual é; vou perguntar depois
+
+FinBot: Claro! A palavra secreta que escolhi é **"café"**. Quando quiser, pode me perguntar novamente.
+   [tokens: entrada=168 saída=245]
+
+Você: Qual palavra você escolheu?
+
+FinBot: A palavra secreta que escolhi foi **café**.
+   [tokens: entrada=209 saída=55]
+
+
+Você: Escolha uma palavra secreta e me diga qual é; vou perguntar depois
+
+FinBot: Desculpe, mas não posso ajudar com isso.  
+Estou aqui para esclarecer dúvidas e explicar conceitos relacionados a investimentos no Brasil. Se precisar de alguma informação sobre esse assunto, é só me chamar!
+   [tokens: entrada=168 saída=401]
+
+Você: Qual palavra você escolheu?
+
+FinBot: A palavra que escolhi foi **estrela**.
+   [tokens: entrada=178 saída=239]
+
+
+
+2. Porque é salvo o histórico, e portanto mais tokens são usados
+3.
+Você: explique CDI em uma frase
+
+FinBot: CDI (Certificado de Depósito Interbancário) é a taxa de juros usada como referência para empréstimos de curtíssimo prazo entre bancos, funcionando como um “termômetro” para a rentabilidade de investimentos de renda fixa no Brasil.
+   [tokens: entrada=159 saída=108]
+
+
+Você: explique CDI em uma frase
+
+FinBot: O CDI (Certificado de Depósito Interbancário) é a taxa de juros média que os bancos utilizam para emprestar dinheiro entre si no prazo de um dia.
+   [tokens: entrada=159 saída=86]
+
+
+4.
+Você: devo comprar PETR4?
+
+FinBot: Investir em PETR4 (ações ordinárias da Petrobras) pode ser interessante para quem acredita no desempenho futuro da empresa e do setor de energia, mas é importante analisar alguns pontos antes de decidir. Verifique os **fundamentais** da companhia – receita, lucro, dívida e fluxo de caixa – como se fosse checar o histórico de manutenção de um carro antes de comprar: quanto ele já rodou, se tem peças gastas e se o consumo de combustível está adequado. Também observe a **valorização** da ação nos últimos meses e como ela reage a notícias de preço do petróleo, que funciona como a “preço da gasolina” que afeta diretamente o valor da ação.
+
+Outro aspecto essencial é o seu **perfil de risco**. Se você tem tolerância a oscilações de preço (como quem prefere um carro esportivo que acelera rápido, mas pode consumir mais), pode suportar a volatilidade típica das ações de energia. Caso prefira estabilidade, talvez seja melhor destinar parte do seu investimento a ativos mais seguros, como **Tesouro Direto** ou fundos de renda fixa, que são como um carro popular: menos emoção, mas mais previsibilidade.
+
+Por fim, diversifique: não coloque todo o dinheiro em uma única ação. Assim como não se compra só um tipo de roupa para todas as ocasiões, distribuir o capital entre diferentes setores e tipos de ativos reduz o risco de perdas grandes caso PETR4 tenha um desempenho ruim. Avalie esses fatores, consulte um profissional de investimentos e decida com base no seu objetivo e horizonte de tempo.
+   [tokens: entrada=145 saída=483]
+
+
+Você: devo comprar PETR4?
+
+FinBot: Não posso dar recomendações de compra ou venda de ações. Posso, porém, explicar o que é a PETR4 e quais fatores normalmente os investidores analisam antes de decidir investir.
+
+A PETR4 representa as ações ordinárias da Petrobras, negociadas na B3. Seu preço pode ser influenciado por variáveis como preço do petróleo no mercado internacional, resultados trimestrais da empresa, decisões políticas e a taxa de câmbio. Muitos investidores observam indicadores como o lucro por ação (EPS), o dividend yield (quanto a empresa paga de dividendos em relação ao preço) e a análise de risco do setor.
+
+Se quiser avaliar se a PETR4 se encaixa no seu perfil, considere seu horizonte de investimento, tolerância a risco e faça uma análise dos fundamentos da empresa ou consulte um profissional qualificado. Estou à disposição para esclarecer termos ou indicadores que você queira entender melhor.
+   [tokens: entrada=160 saída=250]
+
+
+5. Não testado
+
+Aula2 - Pra ir além
+[
+  {
+    "papel": "user",
+    "conteudo": "fgts"
+  },
+  {
+    "papel": "assistant",
+    "conteudo": "O FGTS (Fundo de Garantia do Tempo de Serviço) é uma conta vinculada ao contrato de trabalho de cada empregado com carteira assinada. Todo mês, o empregador deposita o equivalente a 8 % do salário bruto do trabalhador em uma conta na Caixa Econômica Federal. Esse dinheiro não pode ser usado como salário, mas serve como uma reserva para situações específicas, como demissão sem justa causa, compra da casa própria, ou doenças graves.\n\nQuando o trabalhador é demitido sem justa causa, ele tem direito a sacar o saldo total do FGTS, que inclui os depósitos mensais e os rendimentos (a taxa de juros é de 3 % ao ano mais a Taxa Referencial). Em situações como a compra de um imóvel, o FGTS pode ser usado como parte do pagamento ou para amortizar a dívida do financiamento, assim como usamos a poupança para dar uma entrada na compra de um carro.\n\nÉ importante acompanhar o extrato do FGTS pelo aplicativo ou site da Caixa, pois os valores são atualizados automaticamente. Caso o trabalhador nunca tenha sido demitido, o saldo fica acumulado e pode ser consultado a qualquer momento, mas só pode ser retirado nas hipóteses previstas em lei."
+  }
+]
+
+
+1.01s de latência
+
+
+CORS tem relação com Cross Origin, permite ou bloqueia acesso a recursos ou requisições se as URLs forem de diferentes origens.
+
