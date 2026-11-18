@@ -24,3 +24,8 @@ services:
         value: producao         # separa os traces do Render dos locais (filtro Environment)
       - key: LANGFUSE_HOST
         value: https://us.cloud.langfuse.com
+      - key: MONGO_URL
+        sync: false
+      # Token da brapi.dev (opcional; libera mais ativos).
+      - key: BRAPI_TOKEN
+        sync: false
