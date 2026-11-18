@@ -56,6 +56,7 @@ def rastrear(sessao: str, usuario: str, nome: str = "chat"):
     with propagate_attributes(session_id=sessao, user_id=usuario, trace_name=nome):
         yield  # neste ponto roda o código que está dentro do "with rastrear(...)"
 
+
 def config_prompt(prompt) -> dict:
     """Liga a chamada do LLM à versão do prompt usada (aparece no trace e nas métricas do prompt)."""
     # Prompt local (fallback) não existe no Langfuse: não há versão para ligar.

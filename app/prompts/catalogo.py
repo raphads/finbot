@@ -18,7 +18,7 @@ def carregar(nome: str) -> str:
     """Lê o texto do prompt local (arquivo app/prompts/<nome>.md)."""
     return (PASTA / f"{nome}.md").read_text(encoding="utf-8").strip()
 
-    # Nomes dos prompts locais: sistema.md -> "sistema" (p.stem = nome do arquivo sem a extensão).
+# Nomes dos prompts locais: sistema.md -> "sistema" (p.stem = nome do arquivo sem a extensão).
 def nomes_locais() -> list[str]:
     return sorted(p.stem for p in PASTA.glob("*.md"))
 

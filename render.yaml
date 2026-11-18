@@ -11,21 +11,21 @@ services:
     autoDeploy: true            # cada git push na main publica de novo
     envVars:                    # variáveis de ambiente (o .env do servidor)
       - key: PYTHON_VERSION
-        value: "3.12.8"
+      value: "3.12.8"
       - key: LLM_PROVEDOR
-        value: groq
+      value: groq
       - key: GROQ_API_KEY
-        sync: false             # secreta: você digita o valor no painel do Render
+      sync: false             # secreta: você digita o valor no painel do Render
       - key: LANGFUSE_PUBLIC_KEY
-        sync: false
+      sync: false
       - key: LANGFUSE_SECRET_KEY
-        sync: false
+      sync: false
       - key: LANGFUSE_TRACING_ENVIRONMENT
-        value: producao         # separa os traces do Render dos locais (filtro Environment)
+      value: producao         # separa os traces do Render dos locais (filtro Environment)
       - key: LANGFUSE_HOST
-        value: https://us.cloud.langfuse.com
+      value: https://us.cloud.langfuse.com
       - key: MONGO_URL
-        sync: false
+      sync: false
       # Token da brapi.dev (opcional; libera mais ativos).
       - key: BRAPI_TOKEN
-        sync: false
+      sync: false
